@@ -10,6 +10,7 @@
 }
 
 .header {
+    
     display: flex;
     justify-content: space-around;
 }
@@ -38,6 +39,8 @@ ul {
 }
 
 .nexthead {
+    position: absolute;
+    top:2rem;
     color: white;
     display: flex;
     gap: 2rem;
@@ -50,8 +53,11 @@ ul {
 }
 
 .img1 {
-    width: 490px;
+    
+    width:400px;
     height: 200px;
+    position: relative;
+    left: 11rem;
 }
 
 ul li {
@@ -131,11 +137,17 @@ h2 {
 
 
 .head {
+    position: absolute;
+    margin-top: 1rem;
+    font-weight:bold;
+    font-size: large;
+    
+    left: 2rem;
     color: white;
     display: flex;
     text-align: center;
     padding: 10px;
-    margin: 0x 70px 1px 1px;
+    /* margin: 0x 70px 1px 1px; */
 }
 
 .head1 {
@@ -246,6 +258,13 @@ h2 {
     margin-right: 10rem;
 }
 
+
+.header ul{
+    margin-top: 1rem;
+    position: absolute;
+    right: 10rem;
+
+}
   
 
 
